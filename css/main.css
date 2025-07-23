@@ -56,6 +56,9 @@ a {
   z-index: 1;
 }
 
+.tiket-info{
+  margin-top: 10px;
+}
 /* 티켓 사진 위 번호(랭킹) */
 .tiket-rank {
   position: absolute;
@@ -64,6 +67,7 @@ a {
   font-size: 70px;
   font-weight: bold;
   color: #fff;
+  z-index: 1;
 }
 /* 공연 장소 */
 .tiket-hall {
@@ -75,6 +79,7 @@ a {
   font-size: 12px;
 }
 
+/* 버튼 꾸미기 */
 .btn1 {
   color: #ef3e43;
   font-size: 15px;
@@ -85,6 +90,7 @@ a {
   margin-top: 5px;
 }
 
+/* 버튼 꾸미기 */
 .btn2 {
   color: #4a95ff;
   font-size: 15px;
@@ -95,7 +101,7 @@ a {
   margin-top: 5px;
 }
 
-/* 웨이스티드에 HOT 표시하기 */
+/* 웨이스티드에 HOT 스티커 */
 .hot-btn{ 
   width: 30px;
   height: 30px;
